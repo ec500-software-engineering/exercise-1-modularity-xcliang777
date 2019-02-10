@@ -41,4 +41,7 @@ class AiModule():
             predBloodOxygen += self.bo[i]/rand
             predBloodPressure += self.bp[i]/rand
             prePulse += self.pulse[i]/rand
+            print('predicted blood oxygen is: ' + predBloodOxygen)
+            print('predicted blood pressure is: ' + predBloodPressure)
+            print('predicted pulse is: ' + prePulse)
         return predBloodOxygen, predBloodPressure, prePulse
