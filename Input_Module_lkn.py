@@ -5,6 +5,7 @@ def read_data(path):
             if data:
                 time = data[0]
                 value = data[1]
+                float(value)
                 print("Read data successfully\n")
             else:
                 print("Empty data file!\n")
