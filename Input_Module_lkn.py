@@ -11,7 +11,7 @@ class InputModule():
                     print("Empty data file!\n")
                     return 2
 
-            return time,value
+            return value
         except:
             print("Error:No input data\n")
 
