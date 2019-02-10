@@ -10,10 +10,10 @@ def read_data(path):
                     time.append(float(i[0]))
                     value.append(float(i[1]))
                 print("Read data successfully\n")
+                return data,value
             else:
                 print("Empty data file!\n")
                 return 2
-        return value
     except:
         print("Error:No input data\n")
 
