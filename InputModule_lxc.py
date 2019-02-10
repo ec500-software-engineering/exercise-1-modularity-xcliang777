@@ -1,10 +1,10 @@
 #Copyright Xiaocheng Liang xcliang@bu.edu
+#Input Module
 
 '''
 Expecting receive data from monitor devices(blood oxygen, blood pressure, pulse)
 Now receive data from other source file(txt file)
 Format: float
-float type_of_data represent the source of the data.(blood oxygen or pressure or else)
 '''
 
 # class InputModule():
