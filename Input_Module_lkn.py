@@ -1,4 +1,4 @@
-def read(path):
+def read_data(path):
     try:
         with open(path,'r') as f:
             data = f.readline().split()
