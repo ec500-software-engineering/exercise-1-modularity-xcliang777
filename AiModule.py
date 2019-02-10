@@ -19,6 +19,9 @@ class AiModule():
                     self.bo.extend(bloodOxygen)
                     self.bp.extend(bloodPressure)
                     self.pulse.extend(pulse)
+#               or  self.bo.append(bloodOxygen)
+#                   self.bp.append(bloodPressure)
+#                   self.pulse.append(pulse)
                 break
 
         except AttributeError:
