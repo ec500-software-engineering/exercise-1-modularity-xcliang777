@@ -1,3 +1,6 @@
+# Copyright 2018 Gang Wei wg0502@bu.edu
+# storage module
+
 class storage():
     def __init__(self,bo,bp,pul):
         self.bo = bo
