@@ -43,7 +43,7 @@ class storage():
             return self.bp
         elif Input == "pul":
             return self.pul
-
-    # for example: print(storage(3,4,5).read())
+    # for example: print(storage(3,4,5).read('bo'))
     # which is bo = 3,bp = 4,and pul = 5
+    # Then it returns 3
 '''
