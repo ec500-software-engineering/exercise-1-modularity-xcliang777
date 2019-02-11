@@ -7,8 +7,8 @@ def read_data(path):
             if data:
                 for i in data:
                     i = i.split()
-                    time.append(float(i[0]))
-                    value.append(float(i[1]))
+                    for item in i:
+                        value.append(item)
                 print("Read data successfully\n")
                 return value
             else:
