@@ -1,5 +1,6 @@
-# EC500
-It's a readme document for the architecture.
+# EC500-exercise1
+##ArchitectureDiagram
+https://raw.githubusercontent.com/WenjieLuo2333/ModuleDesign/master/Health_Monitor_system_diagram.png
 
 
 ## Input Module(My own part)
