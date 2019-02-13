@@ -1,5 +1,5 @@
 # EC500-exercise1
-##ArchitectureDiagram
+## ArchitectureDiagram
 https://raw.githubusercontent.com/WenjieLuo2333/ModuleDesign/master/Health_Monitor_system_diagram.png
 
 
