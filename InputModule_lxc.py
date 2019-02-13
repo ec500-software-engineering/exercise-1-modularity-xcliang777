@@ -13,7 +13,7 @@ Format: float
 # 		self.bp = bp
 # 		self. pul = pul
 
-def input(path):
+def readdata(path):
 	#Since we do not have data from the sensor now, we assuse that data is already in txt file
 	try:
 		with open(path, 'r') as f:
