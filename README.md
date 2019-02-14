@@ -2,13 +2,13 @@
 ## ArchitectureDiagram
 ![image](https://github.com/ec500-software-engineering/exercise-1-modularity-xcliang777/blob/master/Health_Monitor_system_diagram.png)
 
+## HOW TO RUN
+Requirement: Python 2.7
+Do: python main.py(single-thread) or python main_thread.py(multi-thread)
 
-## Input Module(My own part)
+## ABOUT THE ARCHITECTURE:
+I create 5 thread to run the program. It allows new input data and deal with data when another thread is still running.
 
-### Input:
-Three txt files store data of bo, bp, pul.
-Blood oxygen, blood pressure and pulse are defined as float.
-bo, bp, pul: list [float value]
-### Output:
-Bo, bp, pul are three lists.
+## To improve:
+There's another way using callback function. I can have a try practicing that.
 
