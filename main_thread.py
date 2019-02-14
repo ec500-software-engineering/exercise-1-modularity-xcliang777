@@ -25,6 +25,9 @@ def run():
 	    boa = Alt.Alert_for_three_categories_input(boi)
 	    bpa = Alt.Alert_for_three_categories_input(bpi)
 	    pula = Alt.Alert_for_three_categories_input(puli)
+	print(boa)
+	print(bpa)
+	print(pula)
 
 	User = UserInterface_module.userInterface()
 	User.getFromData(bo, bp, pul)
