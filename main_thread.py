@@ -9,14 +9,17 @@ import random
 import threading
 
 def run():
+	'''Input Module'''
 	bo = InputModule_lxc.readdata("./examplebo.txt")
 	bp = InputModule_lxc.readdata("./examplebp.txt")
 	pul = InputModule_lxc.readdata("./examplepul.txt")
 
+	'''AI Module'''
 	robot = AiModule.AiModule()
 	robot.input_check(bo, bp, pul)
 	predBloodOxygen, predBloodPressure, prePulse = robot.predict()
 
+	'''Alert Module'''
 	Alt = Alert_module.Alert()
 	for k in range(len(bo)):
 	    boi = bo[k],0
@@ -29,6 +32,7 @@ def run():
 	print(bpa)
 	print(pula)
 
+	'''UI module'''
 	User = UserInterface_module.userInterface()
 	User.getFromData(bo, bp, pul)
 
